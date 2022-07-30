@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/rect_s"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:id="@+id/Pmsg"
+        android:text="Select a printer"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="50sp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/Pkbtn"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:textColor="@color/whiteCL"
+            android:background="@drawable/rou_rec"
+            android:text="LS"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/PNbtn"
+            android:textSize="30dp"
+            android:textColor="@color/whiteCL"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/rou_rec"
+            android:text="NGX"/>
+    </LinearLayout>
+</LinearLayout>

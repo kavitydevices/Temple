@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/whiteCL"
+
+    tools:context=".Annasantarpane1">
+
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginLeft="15dp"
+                android:text="Name" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_name_tv"
+                android:layout_margin="10dp"
+                android:hint="xxxxxxxx"
+                android:background="@drawable/profile_text_bg"
+                android:padding="15dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="18dp" />
+
+            <!--                        <ImageView-->
+            <!--                            android:layout_width="wrap_content"-->
+            <!--                            android:layout_height="wrap_content"-->
+            <!--                            android:layout_alignParentRight="true"-->
+            <!--                            android:layout_centerVertical="true"-->
+            <!--                            android:src="@drawable/ic_baseline_edit_24" />-->
+        </LinearLayout>
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="vertical"-->
+        <!--            android:padding="5dp">-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="Prefix" />-->
+
+        <!--            <RelativeLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:background="@drawable/profile_text_bg">-->
+
+        <!--                <TextView-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="10dp"-->
+        <!--                    android:text="MRS"-->
+
+        <!--                    android:textColor="@color/colorBlack"-->
+        <!--                    android:textSize="18dp" />-->
+
+        <!--                <ImageView-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_alignParentRight="true"-->
+        <!--                    android:layout_centerVertical="true"-->
+        <!--                    android:src="@drawable/ic_baseline_edit_24" />-->
+        <!--            </RelativeLayout>-->
+        <!--        </LinearLayout>-->
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="vertical"-->
+        <!--            android:padding="5dp">-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="First Name" />-->
+
+        <!--            <RelativeLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:background="@drawable/profile_text_bg">-->
+
+        <!--                <TextView-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="10dp"-->
+        <!--                    android:text="MM"-->
+
+        <!--                    android:textColor="@color/colorBlack"-->
+        <!--                    android:textSize="18dp" />-->
+
+        <!--                <ImageView-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_alignParentRight="true"-->
+        <!--                    android:layout_centerVertical="true"-->
+        <!--                    android:src="@drawable/ic_baseline_edit_24" />-->
+        <!--            </RelativeLayout>-->
+        <!--        </LinearLayout>-->
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="vertical"-->
+        <!--            android:padding="5dp">-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="Last Name" />-->
+
+        <!--            <RelativeLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:background="@drawable/profile_text_bg">-->
+
+        <!--                <TextView-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="10dp"-->
+        <!--                    android:text="SKOSANA"-->
+
+        <!--                    android:textColor="@color/colorBlack"-->
+        <!--                    android:textSize="18dp" />-->
+
+        <!--                <ImageView-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_alignParentRight="true"-->
+        <!--                    android:layout_centerVertical="true"-->
+        <!--                    android:src="@drawable/ic_baseline_edit_24" />-->
+        <!--            </RelativeLayout>-->
+        <!--        </LinearLayout>-->
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="vertical"-->
+        <!--            android:padding="5dp">-->
+
+        <!--            <TextView-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="Gender" />-->
+
+        <!--            <RelativeLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:background="@drawable/profile_text_bg">-->
+
+        <!--                <TextView-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_margin="10dp"-->
+        <!--                    android:text="Female"-->
+
+        <!--                    android:textColor="@color/colorBlack"-->
+        <!--                    android:textSize="18dp" />-->
+
+        <!--                <ImageView-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_alignParentRight="true"-->
+        <!--                    android:layout_centerVertical="true"-->
+        <!--                    android:src="@drawable/ic_baseline_edit_24" />-->
+        <!--            </RelativeLayout>-->
+        <!--        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:layout_marginLeft="15dp"
+
+                android:textSize="18dp"
+                />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/address"
+                android:layout_margin="10dp"
+                android:hint="xxxxxxxx"
+                android:background="@drawable/profile_text_bg"
+                android:padding="15dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile No"
+                android:textSize="18dp"
+                android:layout_marginLeft="15dp"
+
+                />
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/user_mobile_tv"
+                android:layout_margin="10dp"
+                android:hint="xxxxxxxx"
+                android:background="@drawable/profile_text_bg"
+                android:padding="15dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount"
+                android:textSize="18dp"
+                android:layout_marginLeft="15dp"
+
+                />
+
+
+            <EditText
+                android:id="@+id/amounttobepaid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:inputType="number"
+                android:hint="xxxxxxxx"
+                android:background="@drawable/profile_text_bg"
+                android:textColor="@color/colorBlack"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="40dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/onlinePayment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Online"
+                    android:inputType="textCapSentences"
+                    android:layout_marginRight="10dp"
+                    android:padding="3dp"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+
+                    android:background="@color/colorPrimary" />
+
+                <Button
+                    android:id="@+id/cashpayment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Cash Payment"
+                    android:inputType="textCapSentences"
+                    android:padding="3dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+
+                    android:background="@color/colorPrimary"/>
+
+                <Button
+                    android:id="@+id/sms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sms"
+                    android:visibility="gone"
+                    android:textColor="@color/whiteCL"
+                    android:layout_alignParentRight="true"
+                    android:textSize="18dp"
+                    android:background="@color/colorPrimary"
+                    android:inputType="textCapSentences"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
+
+

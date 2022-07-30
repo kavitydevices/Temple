@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">KD APPS - Billing POS</string>
+    <string name="Rup">\u20B9</string>
+    <string name="Footer1">Powered by KD APPS</string>
+    <string name="frgpd"><u>Cant login?</u></string>
+    <string name="nont"><u>No internet connection!! Tap to retry</u></string>
+
+
+    <string name="qr_code">qr_code</string>
+    <string name="enter_your_info">Enter your info</string>
+    <string name="generate_qr_code">Generate QR Code</string>
+</resources>

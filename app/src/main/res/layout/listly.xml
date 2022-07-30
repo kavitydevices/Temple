@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="200dp"
+    android:background="@drawable/rou_rec"
+    android:paddingTop="20dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="15dp"
+    android:layout_margin="10dp"
+    android:weightSum="3"
+    android:paddingRight="15dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:visibility="gone"
+            android:src="@drawable/hcircle_s"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item 1"
+            android:maxLines="1"
+            android:textColor="@color/whiteCL"
+            android:paddingLeft="15dp"
+            android:textSize="18sp"
+            android:layout_weight="1"
+
+            android:textStyle="normal"
+            android:id="@+id/item_nm"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/wcircl"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:visibility="gone"
+            android:src="@drawable/hcircle_s"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Rup"
+            android:textSize="16sp"
+            android:textColor="@color/whiteCL"
+            android:textStyle="normal"
+            android:id="@+id/item_rt"/>
+    </LinearLayout>
+
+
+</LinearLayout>
